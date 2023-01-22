@@ -36,6 +36,4 @@ where:
 
 Each chunk MUST be independent such that it can be downloaded without reference to any other chunk (in any stream).
 
-Each stream chunk MUST be independent such that it can be downloaded without reference to any other chunk.
-
 Stream headers are arbitrary objects. Their semantics SHOULD be decided by the client.
