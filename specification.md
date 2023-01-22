@@ -29,7 +29,7 @@ where:
 * Stream names MUST be unique.
 * Chunk URLs SHOULD be unique.
 * Chunk URLs SHOULD conform to [RFC-1738](https://www.rfc-editor.org/rfc/rfc1738).
-* Chunk URLs MUSTq use the HTTP(s) scheme.
+* Chunk URLs MUST use the HTTP(s) scheme.
 
 
 ### 1.2. Semantics
