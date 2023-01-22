@@ -34,7 +34,7 @@ where:
 
 ### 1.2. Semantics
 
-Each stream in SHOULD be independent such that its chunks can be downloaded without reference to any other stream.
+Each chunk MUST be independent such that it can be downloaded without reference to any other chunk (in any stream).
 
 Each stream chunk MUST be independent such that it can be downloaded without reference to any other chunk.
 
