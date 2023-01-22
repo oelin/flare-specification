@@ -28,12 +28,9 @@ where:
 
 * Stream names MUST be unique.
 * Chunk URLs SHOULD be unique.
-* Chunk URLs SHOULD conform to [RFC-1738](https://www.rfc-editor.org/rfc/rfc1738).
-* Chunk URLs MUST use the HTTP(s) scheme.
+* Chunk URLs MUST use HTTP or HTTPS.
 
 
 ### 1.2. Semantics
 
-Each chunk MUST be independent such that it can be downloaded without reference to any other chunk (in any stream).
-
-Stream headers are arbitrary objects. Their semantics SHOULD be decided by the client.
+Stream headers SHOULD be interpreted by the client.
